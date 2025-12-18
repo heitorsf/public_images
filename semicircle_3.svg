@@ -1,15 +1,24 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  width="566"
-  height="280"
   viewBox="0 0 566 280"
+  preserveAspectRatio="xMidYMax meet"
 >
+  <defs>
+    <radialGradient
+      id="gaugeFill"
+      cx="283.122"
+      cy="279.55"
+      r="279"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset="0%" stop-color="currentColor" stop-opacity="1"/>
+      <stop offset="80%" stop-color="currentColor" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="currentColor" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
   <path
-    fill-rule="evenodd"
-    clip-rule="evenodd"
     d="M565.433 279.55H0.811523C2.63594 125.192 128.332 0.624512 283.122 0.624512C437.913 0.624512 563.609 125.192 565.433 279.55Z"
-    fill="currentColor"
+    fill="url(#gaugeFill)" 
   />
 </svg>
-
-
